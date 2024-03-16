@@ -6,7 +6,7 @@ int main()
 
   int a;
   
-  a = 100;
+  a = 600;
 
   cout<<a; //100
  
