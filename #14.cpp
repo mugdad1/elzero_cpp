@@ -10,7 +10,7 @@ age application
 int main(){
     using namespace std;
     cout<<"================================================\n";
-    cout<<"==============calc your age dude================\n";
+    cout<<"==============calc our age dude================\n";
     cout<<"================================================\n";
     int age;
     cout<<"enter your age:";
