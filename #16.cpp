@@ -38,7 +38,7 @@ int num2 = 50;
 cout<<sizeof (num)<<"\n" ;
 cout<<sizeof (name)<<"\n";
 cout<<sizeof (status)<<"\n";
-cout<< num1/num2//can't divide int with string;
+cout<< num1/num2;//can't divide int with string
 
 
 
