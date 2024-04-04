@@ -16,6 +16,8 @@ using namespace std;
 
 int main()
 {
+
+
   char a = 'A';
   cout << sizeof(a) << "\n"; // 1
 
@@ -35,6 +37,16 @@ int main()
   // cout << int("Z") << "\n"; // Error
 
   cout << char(81) << "\n"; // Q
+
+char letter;
+int ASSCII;
+cout<<"input the char"<<'\n';
+cin>>letter;
+cout<<"input the Asscii"<<'\n';
+cin>> ASSCII;
+cout <<"asscii is "<< int (letter)<<endl;
+cout << "letter is: " << char (ASSCII)<<endl;
+
 
   return 0;
 }
