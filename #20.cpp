@@ -18,7 +18,7 @@ int main()
 {
 
 
-  char a = 'A';
+  char a  = 'A';
   cout << sizeof(a) << "\n"; // 1
 
   auto b = 'B';
