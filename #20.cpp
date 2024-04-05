@@ -39,13 +39,13 @@ int main()
   cout << char(81) << "\n"; // Q
 
 char letter;
-int ASSCII;
+int ASCII;
 cout<<"input the char"<<'\n';
 cin>>letter;
-cout<<"input the Asscii"<<'\n';
-cin>> ASSCII;
-cout <<"asscii is "<< int (letter)<<endl;
-cout << "letter is: " << char (ASSCII)<<endl;
+cout<<"input the ASCII"<<'\n';
+cin>> ASCII;
+cout <<"ASCII is "<< int (letter)<<endl;
+cout << "letter is: " << char (ASCII)<<endl;
 
 
   return 0;
