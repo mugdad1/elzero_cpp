@@ -31,8 +31,12 @@ int main()
 {
     int age = 150;
     cout << sizeof(age)<<"\n"; //4 byte
+    short int age1 = 150;
+    cout << sizeof(age1)<<"\n"; //4 byte
+    long int age2 = 150;
+    cout << sizeof(age2)<<"\n"; //4 byte
     return 0;
-    
+
 
 
 
