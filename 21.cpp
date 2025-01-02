@@ -4,8 +4,9 @@ void without_value()
 //nothing to return
 }
 int main()
+
+
 {
-    
     using namespace std;
     bool is_open = true;
     cout<< is_open + 10<< endl ;    //1+10

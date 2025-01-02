@@ -37,7 +37,7 @@ int main()
   h=10 , j=10 ,i=10;
   cout<<h+i+j<<"\n"; //30
   cout<<"\n===================\n";
-  int v;
+  int v = 1;
   cout<<v;
 
   return 0;
