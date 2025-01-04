@@ -29,13 +29,15 @@ int main()
     cout<<num2<<endl;
     cout<<num3<<endl;
     cout<<num4<<endl;
+    cout<<"hu"<<endl;
+    cout<<"u"<<endl;
     cout<<INT_MIN<<endl;
     cout<<INT_MAX<<endl;
     cout<<sizeof(float)<<endl;
     cout<<sizeof(double)<<endl;
     cout<<sizeof(bool)<<endl;
     cout<<sizeof(int)<<endl;
-    int lastnum =10.5;
+    int lastnum =10;
     cout<<lastnum<<endl;
 
     return 0;
