@@ -17,7 +17,7 @@ using namespace std;
     int main()
 
 {
-    int b = 200;
+    int b = 400;
     second();
     cout<<a<<" coming from main function \n";
     cout<<b<<" coming from main function \n";

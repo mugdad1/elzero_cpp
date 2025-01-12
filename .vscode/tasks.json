@@ -2,20 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build and run",
             "type": "shell",
-            "command": "g++",
+            "command": "/bin/bash",
             "args": [
-                "-g",
-                "main.cpp", // Change this if you have multiple source files
-                "-o",
-                "main" // Output executable name
+                "-c",
+                "mkdir -p ./build/Debug; echo \"Compiling...\"; g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0 ${file} -o ./build/Debug/outDebug 2>&1; if [ $? -eq 0 ]; then echo \"Build succeeded\"; ./build/Debug/outDebug; else echo \"Build failed\"; exit 1; fi; echo \"Program executed successfully\";"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"]
+            "detail": "Compile, link, and run the currently active C++ program"
         }
     ]
 }
