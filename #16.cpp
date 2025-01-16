@@ -39,7 +39,10 @@ cout<<sizeof (num)<<"\n" ;
 cout<<sizeof (name)<<"\n";
 cout<<sizeof (status)<<"\n";
 cout<< num1/num2;//can't divide int with string
-
+int num3;
+cout<<"enter num 3 "<<endl;
+cin >> num3;
+cout<< num3;
 
 
 }
