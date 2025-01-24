@@ -27,6 +27,7 @@ int main()
     int num6 = false;
     cout<<num1<<endl;
     cout<<num2<<endl;
+    cout<<&num1;
     cout<<num3<<endl;
     cout<<num4<<endl;
     cout<<"hu"<<endl;
