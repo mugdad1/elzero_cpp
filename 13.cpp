@@ -21,14 +21,11 @@ int main() {
     } else {
         cout << "Num2 is greater than or equal to Num1" << endl; // Corrected message
     }
-    return 0;
-}
 
 
 
 
 
-/*
 
 
     int num = 100; ///< an integer variable initialized to 100.
@@ -112,10 +109,5 @@ int main() {
         cout<<*v[i];
         cout<<"end of programm"<<endl;
             }
-        int* ptr = NULL;
-        cout<<"ff";
-    cout<< "ff";
-        cout<<ptr;
         return 0;                   // Return 0 to indicate successful completion.
 }
-*/
