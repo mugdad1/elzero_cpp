@@ -1,0 +1,3 @@
+/home/mugdad/Documents/GitHub/elzero_cpp/build/CMakeFiles/elzero_cpp.dir
+/home/mugdad/Documents/GitHub/elzero_cpp/build/CMakeFiles/edit_cache.dir
+/home/mugdad/Documents/GitHub/elzero_cpp/build/CMakeFiles/rebuild_cache.dir

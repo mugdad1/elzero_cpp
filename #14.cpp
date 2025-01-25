@@ -13,6 +13,8 @@ int main(){
     cout<<"==============calc our age dude================\n";
     cout<<"================================================\n";
     int age;
+    
+    int f = 2;
     cout<<"enter your age:";
     cin>>age;
     int age_in_days = age * 365;
