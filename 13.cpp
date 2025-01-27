@@ -109,5 +109,36 @@ int main() {
         cout<<*v[i];
         cout<<"end of programm"<<endl;
             }
-        return 0;                   // Return 0 to indicate successful completion.
+
+
+  struct studentRecords{
+    string name;
+    int age;
+    char gender;
+    };
+    studentRecords St1;
+    studentRecords St2;
+    St1.age= 32;
+    St1.gender='M';
+    St1.name="emily";
+    St2= St1;
+    St2.age=6; 
+    
+    St2.gender= 'F';
+    
+    cout<<"st1name is ";
+    switch (St1.gender) {
+    
+    case 'F':cout<<"ms";break;
+    case 'M':cout<<"mr";break;
+    default: ;
+    }
+    
+    cout<<"name is " <<St1.name<<endl;
+    cout<<St1.age<<endl;
+    cout<<St1.gender<<endl;
+    cout<<St2.gender<<endl;
+    cout<<St2.age<<endl;
+    cout<<"name is " <<St2.name<<endl;
+ 
 }
