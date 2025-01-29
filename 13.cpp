@@ -43,11 +43,12 @@ int main() {
     // Output the address of num and flush the output
     cout << "Address of num: " << &num << endl; // This will flush the output
 
+    cout<<"gi";
     int const *x = &num; ///< Pointer x holds the address of num.
 
     // Output the pointer x (address of num) and flush the output
     cout << "Pointer x (address of num): " << x << endl; // This will flush the output
-
+    cout<<"if you find me pls help"<<endl;
     int g = 5;
     int* h = &g;
     cout<<"gjb";
@@ -81,8 +82,18 @@ int main() {
     cout<<"gg";
     cout<<"";
     cout << "*******************" << endl;
+
+
+    double b [10] = {4 ,2 ,7};
     array<int ,3> a = {4,2,6} ;
-     
+
+
+
+
+
+
+
+
   cout<<"/////////////////////////////"<<endl;
     cout << &a[0] << endl;      // Output the address of the first element of a
       cout<<"/////////////////////////////"<<endl;
