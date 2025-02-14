@@ -18,8 +18,9 @@ int main()
     int num1 = 1;
     cout <<sizeof (test1)<<endl;
     cout<<sizeof (num1)<<endl;
-    bool num = 100;
+    bool num8= 100;
     bool num2 = 0;
+    int num=8;
     bool num3 = -100;
     cout<<num;
     cout<<num2;
