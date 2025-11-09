@@ -23,7 +23,7 @@ int main(){
 
     cout<<"age in days is "<<age_in_days<<'\n';
     cout<<"age in hours is "<<age_in_hours<<'\n';
-    cout<<"age in minutes is "<<age_in_minutes;
+    cout<<"age in minutes is "<<age_in_minutes<<'\n';
 
 
 
